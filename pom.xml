@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- 
+<!--
 Copyright (c) 2012 - 2016 YCSB contributors. All rights reserved.
 
 Licensed under the Apache License, Version 2.0 (the "License"); you
@@ -84,6 +84,7 @@ LICENSE file.
     <mongodb.async.version>2.0.1</mongodb.async.version>
     <orientdb.version>2.1.8</orientdb.version>
     <redis.version>2.0.0</redis.version>
+    <rocksdb.version>4.8.0</rocksdb.version>
     <s3.version>1.10.20</s3.version>
     <voldemort.version>0.81</voldemort.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -131,6 +132,7 @@ LICENSE file.
     <module>rados</module>
     <module>redis</module>
     <module>riak</module>
+    <module>rocksdb</module>
     <module>s3</module>
     <module>solr</module>
     <module>tarantool</module>

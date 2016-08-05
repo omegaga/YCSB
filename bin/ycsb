@@ -82,6 +82,7 @@ DATABASES = {
     "rados"        : "com.yahoo.ycsb.db.RadosClient",
     "redis"        : "com.yahoo.ycsb.db.RedisClient",
     "riak"         : "com.yahoo.ycsb.db.riak.RiakKVClient",
+    "rocksdb"      : "com.yahoo.ycsb.db.RocksDBClient",
     "s3"           : "com.yahoo.ycsb.db.S3Client",
     "solr"         : "com.yahoo.ycsb.db.SolrClient",
     "tarantool"    : "com.yahoo.ycsb.db.TarantoolClient",
